@@ -1,101 +1,36 @@
-<!DOCTYPE html>
 <html>
-<head>
-        <title>Chess Board</title>
-        <link rel="stylesheet" type="text/css" href="E:\HTML&CSS\Chessboard\style.css">
-</head>
-<body>
-        <table>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <h2>Simple Calculator Using JavaScript</h2>
+        <div class="calc_form">
+            <form name="form1">
+                <input id="calc" type="text" placeholder="None" name="results"><br><br>
+                <input type="button" value="1" onclick="form1.results.value=form1.results.value+1">
+                <input type="button" value="2" onclick="form1.results.value=form1.results.value+2">
+                <input type="button" value="3" onclick="form1.results.value=form1.results.value+3">
+                <input type="button" value="+" onclick="form1.results.value=form1.results.value+ '+'">
+                <br><br>
+                <input type="button" value="4" onclick="form1.results.value=form1.results.value+4">
+                <input type="button" value="5" onclick="form1.results.value=form1.results.value+5">
+                <input type="button" value="6" onclick="form1.results.value=form1.results.value+6">
+                <input type="button" value="-" onclick="form1.results.value=form1.results.value+ '-'">
+                <br><br>
+                <input type="button" value="7" onclick="form1.results.value=form1.results.value+7">
+                <input type="button" value="8" onclick="form1.results.value=form1.results.value+8">
+                <input type="button" value="9" onclick="form1.results.value=form1.results.value+9">
+                <input type="button" value="*" onclick="form1.results.value=form1.results.value+ '*'">
+                <br><br>
+                <input type="button" value="0" onclick="form1.results.value=form1.results.value+0">
+                <input type="button" value="/" onclick="form1.results.value=form1.results.value+ '/'">
+                <input type="button" value="." onclick="form1.results.value=form1.results.value+ '.'">
+                <input type="button" value="=" onclick="form1.results.value=eval(form1.results.value)">
+                <br><br>
+                <input type="button" value="Clear All" onclick="form1.results.value=''">
+            </form>
 
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-
-            </tr>
-
-        </table>
-
-</body>
+        </div>
+    </body>
 </html>
